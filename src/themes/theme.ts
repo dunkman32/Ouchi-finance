@@ -1,32 +1,11 @@
 import { createMuiTheme, ThemeOptions } from '@material-ui/core/styles';
-import { red } from '@material-ui/core/colors';
 
 // Create a theme instance.
 const theme = createMuiTheme({
   themeType: 'main',
   palette: {
     primary: {
-      main: '#fff',
-    },
-    secondary: {
-      main: '#615dfa',
-      hover: '#5753e4',
-    },
-    box: {
-      main: '#ffffff',
-      border: '#dedeea',
-      text: '#ffffff',
-      checkedText: '#3e3f5e',
-    },
-    submitButton: {
-      main: '#23d2e2',
-      hover: '#1bc5d4',
-    },
-    error: {
-      main: red.A400,
-    },
-    background: {
-      default: '#f8f8fb',
+      main: '#000',
     },
   },
   typography: {

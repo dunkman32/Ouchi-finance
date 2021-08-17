@@ -46,7 +46,6 @@ export default function CustomProvider({
               position: 'absolute',
               zIndex: 9999,
               top: 0,
-              display: 'none',
             }}
           >
             Change Theme

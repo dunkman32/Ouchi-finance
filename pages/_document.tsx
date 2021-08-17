@@ -7,7 +7,6 @@ import Document, {
 } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 import { ServerStyleSheets } from '@material-ui/styles';
-import theme from '../src/themes/theme';
 
 type ReturnType = {
   styles: JSX.Element
@@ -52,7 +51,7 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           {/* PWA primary color */}
-          <meta name="theme-color" content={theme.palette.primary.main} />
+          <meta name="theme-color" />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
@@ -79,11 +78,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body
-          style={{
-            backgroundColor: theme.palette.primary.main,
-          }}
-        >
+        <body>
           <Main />
           <NextScript />
         </body>
