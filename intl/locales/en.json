@@ -1,3 +1,9 @@
 {
-  "hi": "Good Morning"
+  "hi": "Good Morning",
+  "app": "App",
+  "mission": "Mission",
+  "git": "GitHub",
+  "docs": "Docs",
+  "title": "Ouchi Finance",
+  "mainBtn": "Ouchi Finanace HOME"
 }
