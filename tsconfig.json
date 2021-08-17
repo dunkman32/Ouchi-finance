@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@src/*": ["./src/*"],
-      "@firebase/*": ["./firebase/*"]
+      "@firebase/*": ["./firebaseConfig/*"]
     }
   },
   "exclude": ["node_modules", ".next", "out"],
