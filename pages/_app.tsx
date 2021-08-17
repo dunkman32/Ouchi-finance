@@ -11,8 +11,8 @@ import Georgian from '@intl/compiled-locales/ka.json';
 import English from '@intl/compiled-locales/en.json';
 
 interface Props {
-  Component: NextComponentType<NextPageContext, any, {}>
-  pageProps: any
+  Component: NextComponentType<NextPageContext, any, {}>;
+  pageProps: any;
 }
 
 declare global {

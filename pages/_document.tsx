@@ -9,9 +9,9 @@ import { ServerStyleSheet } from 'styled-components';
 import { ServerStyleSheets } from '@material-ui/styles';
 
 type ReturnType = {
-  styles: JSX.Element
-  html: string
-  head?: (JSX.Element | null)[]
+  styles: JSX.Element;
+  html: string;
+  head?: (JSX.Element | null)[];
 };
 
 class MyDocument extends Document {

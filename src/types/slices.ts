@@ -1,24 +1,24 @@
 /* eslint-disable @typescript-eslint/indent */
 export type Action<P> = Readonly<{
-  type: string
-  payload: Readonly<P>
+  type: string;
+  payload: Readonly<P>;
 }>;
 
 export type ActionResponse<P> = Action<
   Readonly<{
     response: Readonly<{
-      status: number
-      data: P
-    }>
+      status: number;
+      data: P;
+    }>;
   }>
 >;
 
 export type ActionFail<E> = Action<
   Readonly<{
     response: Readonly<{
-      status: number
-    }>
-    message: E
+      status: number;
+    }>;
+    message: E;
   }>
 >;
 

@@ -2,7 +2,8 @@ import { call, put, takeLatest } from 'redux-saga/effects';
 import { actions, requestType } from '@src/slices/mock';
 import axios from 'axios';
 
-const fetchUsers = () => axios.get('https://jsonplaceholder.typicode.com/users');
+const fetchUsers = () =>
+  axios.get('https://jsonplaceholder.typicode.com/users');
 
 export function* bannedUsers() {
   try {

@@ -15,8 +15,8 @@ import { selectors, actions, ThemesEnum } from '@src/slices/themeSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
 interface Props {
-  Component: NextComponentType<NextPageContext, any, {}>
-  pageProps: any
+  Component: NextComponentType<NextPageContext, any, {}>;
+  pageProps: any;
 }
 
 export default function CustomProvider({

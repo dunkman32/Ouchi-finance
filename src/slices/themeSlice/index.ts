@@ -9,7 +9,7 @@ export enum ThemesEnum {
 }
 
 export type State = {
-  currentTheme: ThemesEnum
+  currentTheme: ThemesEnum;
 };
 const initialState: State = {
   currentTheme: ThemesEnum.Main,
