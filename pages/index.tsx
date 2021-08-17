@@ -1,9 +1,12 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import { FormattedMessage } from 'react-intl';
 
 function MainPage() {
-  const { t } = useTranslation();
-  return <h1>{t('hello')}</h1>;
+  return (
+    <h1>
+      <FormattedMessage id="hi" />
+    </h1>
+  );
 }
 
 export default MainPage;
